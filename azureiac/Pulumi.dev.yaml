@@ -1,0 +1,3 @@
+config:
+  azure:location: ukwest
+  azureiac:resourceGroup: rg-mvp-ukw-storage
