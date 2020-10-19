@@ -1,3 +1,5 @@
 config:
   azure:location: ukwest
-  azureiac:resourceGroup: rg-mvp-ukw-storage
+  azureiac:resourceGroupName: rg-mvp-ukw-storage
+  azureiac:storageReplication: LRS
+  azureiac:storageAccountTier: Standard
