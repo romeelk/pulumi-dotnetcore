@@ -1,0 +1,19 @@
+{
+    "configurations": [
+        {
+            "type": "aws-sam",
+            "request": "direct-invoke",
+            "name": "pulumi-dotnetcore:azureiac::UnitTesting.StorageStackUnitTest::ResourceGroupShouldHaveEnvironmentTag (dotnetcore3.1)",
+            "invokeTarget": {
+                "target": "code",
+                "projectRoot": "azureiac",
+                "lambdaHandler": "azureiac::UnitTesting.StorageStackUnitTest::ResourceGroupShouldHaveEnvironmentTag"
+            },
+            "lambda": {
+                "runtime": "dotnetcore3.1",
+                "payload": {},
+                "environmentVariables": {}
+            }
+        }
+    ]
+}
