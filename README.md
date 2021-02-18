@@ -109,7 +109,7 @@ Pulumi does not have a way to Mock configuration values. When i run dotnet test 
 
 ```
  Error Message:
-   Pulumi.RunException : Running program '/Users/romeelkhan/development/pulumi-dotnetcore/azureiac/bin/Debug/netcoreapp3.1/testhost.dll' failed with an unhandled exception:
+   Pulumi.RunException : Running program '/Users/dummy/..../pulumi-dotnetcore/azureiac/bin/Debug/netcoreapp3.1/testhost.dll' failed with an unhandled exception:
 System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.
  ---> Pulumi.Config+ConfigMissingException: Missing Required configuration variable 'project:storageReplication'
 	please set a value using the command `pulumi config set project:storageReplication <value>`
