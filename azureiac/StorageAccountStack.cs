@@ -14,7 +14,6 @@ class StorageAccountStack : Stack
             {"Environment","Development"},
             {"Owner","Romeel"},
             };
-        // Create an Azure Resource Group
         var resourceGroup = new ResourceGroup("resourceGroup",
             new Pulumi.Azure.Core.ResourceGroupArgs
             {
@@ -22,7 +21,6 @@ class StorageAccountStack : Stack
                 Name = config.Require(StorageConfig.ResourceGroupName), //override auto-naming??,
                 Tags = tags
             });
-        // Create an Azure Storage Account
         var storageAccount = new Account("storage", new AccountArgs
         {
             ResourceGroupName = resourceGroup.Name,
