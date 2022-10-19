@@ -1,4 +1,5 @@
 config:
+  azure-native:location: westeurope
   azure:location: ukwest
   azureiac:resourceGroupName: rg-mvp-ukw-storage
   azureiac:storageAccountTier: Standard

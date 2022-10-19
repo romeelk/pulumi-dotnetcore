@@ -1,9 +1,3 @@
-using System;
-using Pulumi;
-using Pulumi.Azure.Core;
-using Pulumi.Azure.Storage;
-
-
 class StorageConfig
 {
     public const string ResourceGroupName = "resourceGroupName";
