@@ -17,7 +17,7 @@ namespace azurebuilder
         public StackBuilder WithResourceGroup(string resourceGroupName, Dictionary<string,string> tags, string location = "uksouth")
         {
             ResourceGroup = new ResourceGroup(resourceGroupName, new ResourceGroupArgs(){ResourceGroupName = resourceGroupName,
-                                                                                         Location = location,Tags = tags});
+                                                                                         Location = location, Tags = tags});
             return this; 
         }
         public StackBuilder WithStorageAccount(string storageAccountName, StorageAccountArgs args)
